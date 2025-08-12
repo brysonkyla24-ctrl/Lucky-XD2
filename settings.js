@@ -34,7 +34,7 @@ LINK_WHITELIST: "youtube.com,github.com",
 // set the auto reply massage on status reply  
 
 
-       WELCOME: process.env.WELCOME || "false",
+       WELCOME: process.env.WELCOME || "true",
 // true if want welcome and goodbye msg in groups 
    
        ADMIN_EVENTS: process.env.ADMIN_EVENTS || "false",
@@ -56,7 +56,7 @@ LINK_WHITELIST: "youtube.com,github.com",
 // add alive msg here 
 
 
-        STICKER_NAME: process.env.STICKER_NAME || "LUCKY-XD",
+        STICKER_NAME: process.env.STICKER_NAME || "keelz",
 // type sticker pack name 
 
         CUSTOM_REACT: process.env.CUSTOM_REACT || "false",
@@ -88,7 +88,7 @@ OWNER_NAME: process.env.OWNER_NAME || "Keelz",
             ANTI_LINK_KICK: process.env.ANTI_LINK_KICK || "false",
 // make anti link true,false for groups 
 
-        AUTO_STICKER: process.env.AUTO_STICKER || "false",
+        AUTO_STICKER: process.env.AUTO_STICKER || "true",
 // make true for automatic stickers 
 
               AUTO_REPLY: process.env.AUTO_REPLY || "false",
